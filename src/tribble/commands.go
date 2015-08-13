@@ -12,8 +12,12 @@ func Commands(meta *command.Meta) map[string]cli.CommandFactory {
 				Meta: *meta,
 			}, nil
 		},
-		
-        "version": func() (cli.Command, error) {
+		"cpu": func() (cli.Command, error) {
+			return &command.CpuCommand{
+				Meta: *meta,
+			}, nil
+		},
+		"version": func() (cli.Command, error) {
 			return &command.VersionCommand{
 				Meta:     *meta,
 				Version:  Version,
