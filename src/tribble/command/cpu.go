@@ -56,7 +56,7 @@ func (c *CpuCommand) Run(args []string) int {
 }
 
 func (c *CpuCommand) Synopsis() string {
-	return "Get memory free status"
+	return "Get cpu usage"
 }
 
 func (c *CpuCommand) Help() string {
