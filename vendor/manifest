@@ -2,6 +2,12 @@
 	"version": 0,
 	"dependencies": [
 		{
+			"importpath": "github.com/klauspost/cpuid",
+			"repository": "https://github.com/klauspost/cpuid",
+			"revision": "3b0816bb6cb682eea8e1973f4168b6c86880efe1",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/mitchellh/cli",
 			"repository": "https://github.com/mitchellh/cli",
 			"revision": "8102d0ed5ea2709ade1243798785888175f6e415",
